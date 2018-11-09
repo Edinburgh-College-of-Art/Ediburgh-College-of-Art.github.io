@@ -1,2 +1,2 @@
-# Ediburgh-College-of-Art.github.io
-Ediburgh College of Art GitHub Pages Repository
+# Edinburgh-College-of-Art.github.io
+Edinburgh College of Art GitHub Pages Repository
