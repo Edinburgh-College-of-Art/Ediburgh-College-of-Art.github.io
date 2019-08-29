@@ -42,10 +42,10 @@ Welcome to Architectural Design 3: Unit 3. Throughout the course, should you hav
 
 Previous Master Student Henri made up some documentation for using the Firmata and Rhino / Grasshopper / Firefly. Some information is out of data, but the rest is still useful.
 
-- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-1-Handout.pdf" download>Part 1</a>
-- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-2-Handout.pdf" download>Part 2</a>
-- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-3-Handout.pdf" download>Part 3</a>
-- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-4-Handout.pdf" download>Part 4</a>
+- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-1-Handout.pdf">Part 1</a>
+- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-2-Handout.pdf">Part 2</a>
+- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-3-Handout.pdf">Part 3</a>
+- <a href="https://edinburgh-college-of-art.github.io/architectural-design-unit-3/docs/AD3-Arduino-Session-4-Handout.pdf">Part 4</a>
 
 ### Re-Use
 
