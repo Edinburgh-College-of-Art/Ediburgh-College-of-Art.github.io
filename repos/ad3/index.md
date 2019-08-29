@@ -3,7 +3,7 @@ layout: page
 title: Architectural Design 3 - Unit 3
 ---
 
-Welcome to Architectural Design 3: Unit 3. Throughout the course, should you have any questions about arduino programming, get in touch with [Digital Development](mailto:DigiDevECA@ed.ac.uk?subject=Help!). Follow the setup below and bookmark this page for reference.
+Welcome to Architectural Design 3: Unit 3. Throughout the course, should you have any questions about arduino programming, get in touch with [Digital Development](mailto:DigiDevECA@ed.ac.uk?subject=Help!). Follow the setup below and bookmark this page for future reference.
 
 ## Setup
 
@@ -11,11 +11,11 @@ Welcome to Architectural Design 3: Unit 3. Throughout the course, should you hav
 
 - **Arduino**
 
-  To get started, first you are going to need an Arduino. Arduno Uno ar available at the [ECA bookit stores](https://bookit.eca.ed.ac.uk/av/) across campus.
+  To get started, first you are going to need an Arduino. Arduino UNOs are available at the [ECA bookit stores](https://bookit.eca.ed.ac.uk/av/) across campus.
 
 - **Sensors**
 
-  Sensor kits are also available from the bookit store. As the semester progresses, you will need to look for sensor that can get the data you need. If you aren't sure which sensor you need, email [Digital Development](mailto:DigiDevECA@ed.ac.uk?subject=Help With Sensors&body=Hi,%0A%0A I Need X in order to do Y. Which sensor do I need?)
+  Sensor kits are also available from the [BookIt store](https://bookit.eca.ed.ac.uk/av/). As the semester progresses, you will need to look for sensor that can get the data you need. If you aren't sure which sensor you need, email [Digital Development](mailto:DigiDevECA@ed.ac.uk?subject=Help With Sensors&body=Hi,%0A%0A I Need X in order to do Y. Which sensor do I need?)
 
 ### Software
 
@@ -27,7 +27,7 @@ Welcome to Architectural Design 3: Unit 3. Throughout the course, should you hav
 
   The AD3 GitHub repo contains a few more advanced examples as well as an up to date version of the FireFly Firmata. [Download the Repository](https://github.com/Edinburgh-College-of-Art/architectural-design-unit-3/archive/master.zip) or [Sign-up for GitHub](https://github.com), download the [GitHub Desktop App](https://desktop.github.com). Git is a great way to manage your code especially if you need help debugging.
 
-  If you don't want to sign-up for github, you can simply clone the repository using git in command line. If you are on windows, [follow the setup](#Git-Windows) at the bottom of the page
+  If you don't want to sign-up for Github, you can simply clone the repository using git in command line. If you are on Windows, [follow the setup](#Git-Windows) at the bottom of the page
 
 ---
 
@@ -49,13 +49,13 @@ Previous Master Student Henri made up some documentation for using the Firmata a
 
 ### Re-Use
 
-We would incourage you to use waste materials as much as possible. There are all manner of electronics components to be stripped out of old elctronic equipment such as buttons, sliders, knobs and so forth.
+We would encourage you to use waste materials as much as possible. There are all manner of components to be stripped out of old electronic equipment such as buttons, sliders, knobs and so forth.
 
 Check out the [Free-Use Hub](https://www.eca.ed.ac.uk/facility/free-use-hub) at the Firestation for some interesting finds.
 
 ### Where to Buy Components
 
-I fyou absolutely must buy some sensor or components, the the follow are reputable suppliers the deal in RoHS compliant materials. Of course, it never hurts to [ask if we have something already.](mailto:DigiDevECA@ed.ac.uk?subject=Sensors&body=Hi,%0A%0A Do you have X I can beg, borrow or steal?)
+If you absolutely must buy some sensor or components, the the following are reputable suppliers that deal in RoHS compliant materials. Of course, it never hurts to [ask if we have something already.](mailto:DigiDevECA@ed.ac.uk?subject=Sensors&body=Hi,%0A%0A Do you have X I can beg, borrow or steal?)
 
 - [Pimoroni](https://shop.pimoroni.com/)
 - [CPC / Farnell](http://cpc.farnell.com)
@@ -65,12 +65,12 @@ I fyou absolutely must buy some sensor or components, the the follow are reputab
 
 ### Where can I work with Electronics?
 
-If you want to go beyond using a breadboard and need some workshop space there are some fascilities available in the University and the wider city of Edinburgh. We wouldn't encourage students to use there own soldering irons, so there are some fascilities available on request.
+If you want to go beyond using a breadboard and need some workshop space there are some facilities available in the University and the wider city of Edinburgh. We wouldn't encourage students to use there own soldering irons, so there are some facilities available on request.
 
 - [uCreate Studio](https://www.ucreatestudio.is.ed.ac.uk)
 - [Design Informatics](https://www.eca.ed.ac.uk/profile/mark-kobine)
 
-Out of hours and outside the university there are some fadcilities available for electonic prototyping
+Out of hours and outside the university there are some facilities available for electronic prototyping
 
 - [Eagle Lab at CodeBase](https://labs.uk.barclays/locations/edinburgh)
 - [Edinburgh HackLab](https://edinburghhacklab.com)
