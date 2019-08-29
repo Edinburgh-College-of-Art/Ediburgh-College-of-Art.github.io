@@ -32,8 +32,17 @@ header_pages:
   - about.md
   - blog.md
 
+base_repo_url: "https://github.com/Edinburgh-College-of-Art/"
 
-# gems: [jekyll-paginate]
+repos: [{name: "Architectural Design 3: Unit 3", url: architectural-design-unit-3},
+{name: "Connected Things", url: Connected-Things},
+{name: "Electronic Things", url: Electronic-Things},
+{name: "Histories and Futures of Technology", url: Histories-and-Futures-of-Technology },
+{name: "Dynamic Web Design", url: dynamic-web-design  },
+{name: "Audio programming", url: audio-programming  }
+]
+
+gems: [jekyll_github_sample]
 # paginate: 5
 
 # Exclude from processing.
