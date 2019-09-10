@@ -6,9 +6,13 @@ course: Dynamic Web Design
 
 An easy way to edit your site directly on the [playgrounds server](https://www.wiki.ed.ac.uk/display/ECAIT/Experimental+web+server) is to connect via SSH File Transfer Protocol (SFTP)
 
+***
+
 ### Create A New Project
 
 ![Create A New Project GIF](gif/PHPStormNewProject.gif)
+
+***
 
 ### Set SFTP Server
 
@@ -32,6 +36,8 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 
 ![Set SFTP Server Gif](gif/PHPStormSetSFTP.gif)
 
+***
+
 ### Map a Folder
 
 - Still in `Build, Execution, Deployment` -> `Deployment`, go to Mappings tab
@@ -40,6 +46,8 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 - set Web Path to /~**UUN**/**PROJECT_NAME**
 
 ![Map a folder Gif](gif/PHPStormSetMappings.gif)
+
+***
 
 ### Upload to server
 
