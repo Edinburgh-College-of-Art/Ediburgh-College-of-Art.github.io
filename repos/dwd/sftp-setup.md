@@ -26,9 +26,11 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
     | -------------- | ----------------------- |
     | Host           | playground.eca.ed.ac.uk |
     | port           | `22222`                 |
-    | User Name      | **UUN**                 |
+    | User Name      | **UUN\***                 |
     | Authentication | Password                |
-    | Root Path      | /**UUN**                |
+    | Root Path      | /**UUN\***                |
+
+**\*** your student number, followed by @ed.ac.uk - eg: s1234567@ed.ac.uk
 
 [Set SFTP Server Gif]()
 
