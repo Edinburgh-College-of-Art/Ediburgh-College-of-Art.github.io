@@ -6,19 +6,15 @@ course: Dynamic Web Design
 
 An easy way to edit your site directly on the [playgrounds server](https://www.wiki.ed.ac.uk/display/ECAIT/Experimental+web+server) is to connect via SSH File Transfer Protocol (SFTP)
 
-***
-
 ### Create A New Project
 
-![Create A New Project GIF](gif/PHPStormNewProject.gif)
-
-***
+[Create A New Project GIF]()
 
 ### Set SFTP Server
 
 - Go to Preferences
-    - <i class="fab fa-apple"></i>: <kbd>⌘</kbd> + <kbd>,</kbd>
-    - <i class="fab fa-windows"></i>: <kbd>^</kbd> + <kbd>,</kbd>
+    - <i class="fab fa-apple"></i>:   <kbd>⌘</kbd> + <kbd>,</kbd>
+    - <i class="fab fa-windows"></i>:    <kbd>^</kbd> + <kbd>,</kbd>
 
 
 - `Build, Execution, Deployment` -> `Deployment`
@@ -30,13 +26,13 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
     | -------------- | ----------------------- |
     | Host           | playground.eca.ed.ac.uk |
     | port           | `22222`                 |
-    | User Name      | **UUN**                 |
+    | User Name      | **UUN\***                 |
     | Authentication | Password                |
-    | Root Path      | /**UUN**                |
+    | Root Path      | /**UUN\***                |
 
-![Set SFTP Server Gif](gif/PHPStormSetSFTP.gif)
+**\*** your student number, followed by @ed.ac.uk - eg: s1234567@ed.ac.uk
 
-***
+[Set SFTP Server Gif]()
 
 ### Map a Folder
 
@@ -45,9 +41,7 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 - Create a new directory in the `html` folder, give it the name of your project
 - set Web Path to /~**UUN**/**PROJECT_NAME**
 
-![Map a folder Gif](gif/PHPStormSetMappings.gif)
-
-***
+[Map a folder Gif]()
 
 ### Upload to server
 
@@ -59,7 +53,7 @@ To upload files manually:
 - Right click the project folder
 - `Deployment` -> `Upload to ECA Playground`
 
-![Manual Upload GIF](gif/PHPStormManualUpload.gif)
+[Manual Upload GIF]()
 
 #### Automatic Upload
 
@@ -69,4 +63,4 @@ You can also set the project to automatically upload every time you save.
 - Click the disclosure triangle and select `Options`
 - For `Upload changed files automatically to the default server` select `on explicit action`
 
-![Automatic Upload GIF](gif/PHPStormAutoUpload.gif)
+[Automatic Upload GIF]()
