@@ -15,7 +15,7 @@ This is the aggregate website for all Edinburgh College of Art Courses with GitH
 
 <li>
   <h4>
-  <a href="{{site.base_repo_url}}{{repo.url}}">
+  <a href="{{site.base_repo_url}}{{repo.repo}}">
   {{repo.name}}
   </a>
   </h4>
