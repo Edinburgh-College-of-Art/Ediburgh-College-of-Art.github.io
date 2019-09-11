@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cPanel SFTP Setup
+title: SFTP Setup: cPanel 
 course: Dynamic Web Design
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Playground SFTP Setup
+title: SFTP Setup; ECA Playground
 course: Dynamic Web Design
 ---
 
