@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Playground SFTP Setup
+title: cPanel SFTP Setup
 course: Dynamic Web Design
 ---
 
-An easy way to edit your site directly on the cPanel server is to connect via SSH File Transfer Protocol (SFTP)
+An easy way to edit your site directly on the cPanel server is to connect via SSH File Transfer Protocol (SFTP). This guide covers how to upload files over SFTP with PHPStorm.
 
 ***
 
