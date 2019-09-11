@@ -16,9 +16,9 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 
 ### Set SFTP Server
 
-- Go to Preferences
+- Go to Preferences (or Settings)
     - <i class="fab fa-apple"></i>: <kbd>⌘</kbd> + <kbd>,</kbd>
-    - <i class="fab fa-windows"></i>: <kbd>^</kbd> + <kbd>,</kbd>
+    - <i class="fab fa-windows"></i>: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>
 
 
 - `Build, Execution, Deployment` -> `Deployment`
