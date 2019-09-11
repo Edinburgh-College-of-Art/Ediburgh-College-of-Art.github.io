@@ -4,9 +4,9 @@ title: Local Server
 course: Dynamic Web Design
 ---
 
-If you would like to an IDE other than PHP Storm, then you may need to start a local server to check your web page.
-
 Some functionality of a web page works as expected when the files are placed online via FTP or SSH. However, if you try to view them locally, you see some kind of "cross-origin" errors in console. The solution to this is to view them using what's called a local web server. This tutorial includes instructions for setting up several types of local web servers on each of macOS, Windows, and Linux.
+
+If you are using PHPStorm, a local http server will be created for you when you run the page.
 
 If you opted for [Sublime Text Editor](https://www.sublimetext.com/), a very simple way to set up a Local Server, without having to know the Command Line interface, is to use the [Browser Sync](https://packagecontrol.io/packages/Browser%20Sync) plugin for Sublime Text 3.
 
