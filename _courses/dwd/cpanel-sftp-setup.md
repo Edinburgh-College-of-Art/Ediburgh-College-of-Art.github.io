@@ -4,7 +4,7 @@ title: Playground SFTP Setup
 course: Dynamic Web Design
 ---
 
-An easy way to edit your site directly on the [playgrounds server](https://www.wiki.ed.ac.uk/display/ECAIT/Experimental+web+server) is to connect via SSH File Transfer Protocol (SFTP)
+An easy way to edit your site directly on the cPanel server is to connect via SSH File Transfer Protocol (SFTP)
 
 ***
 
@@ -22,19 +22,21 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 
 
 - `Build, Execution, Deployment` -> `Deployment`
-- Click the **+** icon to add a server. Name it `ECA Playground`
+- Click the **+** icon to add a server. Name it `cPanel`
 
     Enter these details
 
     | Type           | SFTP                    |
     | -------------- | ----------------------- |
-    | Host           | playground.eca.ed.ac.uk |
-    | port           | `22222`                 |
-    | User Name      | **UUN\***                 |
+    | Host           | **your_domain**† |
+    | port           | `22`                 |
+    | User Name      | **Cpanel_Username***                 |
     | Authentication | Password                |
-    | Root Path      | /**UUN\***                |
+    | Root Path      | /                |
 
-**\*** your student number, followed by @ed.ac.uk - eg: s1234567@ed.ac.uk
+**†** the domain you have chosen -  eg: example.co.uk
+
+**\*** the username used to log into cpanel
 
 ![Set SFTP Server Gif](gif/PHPStormSetSFTP.gif)
 
@@ -44,8 +46,8 @@ An easy way to edit your site directly on the [playgrounds server](https://www.w
 
 - Still in `Build, Execution, Deployment` -> `Deployment`, go to Mappings tab
 - Click folder in deployment path
-- Create a new directory in the `html` folder, give it the name of your project
-- set Web Path to /~**UUN**/**PROJECT_NAME**
+- Navigate to /home/**cpanel_username**/public_html/ and click <kbd>OK</kbd>
+
 
 ![Map a folder Gif](gif/PHPStormSetMappings.gif)
 
@@ -59,7 +61,7 @@ Create a new file in PHPStorm. You can now upload this file with the server
 
 To upload files manually:
 - Right click the project folder
-- `Deployment` -> `Upload to ECA Playground`
+- `Deployment` -> `Upload to cPanel`
 
 ![Manual Upload GIF](gif/PHPStormManualUpload.gif)
 
