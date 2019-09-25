@@ -30,6 +30,7 @@ plugins:
 
 header_pages:
   - about.md
+  - workshops.md
   - blog.md
 
 base_repo_url: "https://github.com/Edinburgh-College-of-Art/"
@@ -42,9 +43,19 @@ repos: [{name: "Architectural Design 3: Unit 3", repo: architectural-design-unit
 {name: "Audio programming", repo: audio-programming, site: false  }
 ]
 
+workshops: [{name: "Introduction to Git", repo: gitcarp, site: true, url: gitcarp},
+{name: "Introduction to Arduino", repo: introduction-to-arduino, site: false},
+{name: "Arduino for MaxMSP", repo: Arduino-for-Max, site: false},
+{name: "Web Development", repo: web-development, site: false },
+{name: "Audio Visualisation", repo: web-development, site: false }
+]
+
+
 collections:
   courses:
     output: true
+  # workshops:
+  #   output: false
 
 
 gems: [jekyll_github_sample]
