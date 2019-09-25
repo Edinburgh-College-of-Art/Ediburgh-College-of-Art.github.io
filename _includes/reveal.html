@@ -1,0 +1,28 @@
+<script>
+var show_instructions = function() /* Based on https://stackoverflow.com/a/30894829/1802726 */
+{
+  $('.nav-tabs li').removeClass('active'); //set all nav tabs to inactive
+  $('.nav-tabs li a[href*="' + localStorage.os + '"]').closest('li').addClass('active'); //get all nav tabs matching the os and set to active
+  $('.tab-pane').removeClass('active'); //set all tabs to inactive
+  $('.tab-pane[id*="' + localStorage.os + '"]').addClass('active'); //get all tabs matching the os and set to active
+}
+
+if (typeof(Storage) !== "undefined")
+{
+  if (localStorage.os == "undefined")
+  {
+    localStorage.os = "windows";
+  }
+  show_instructions();
+}
+else
+{
+  console.log("No localStorage");
+}
+
+$('.nav-tabs li a').click(function() /* Based on https://stackoverflow.com/a/30894829/1802726 */
+{
+  localStorage.os = $(this)[0].dataset.os; //get selected os
+  show_instructions();
+});
+</script>
