@@ -10,10 +10,10 @@ title:  Welcome to the ECA GitHub
 {%if repo.site%}
 <li>
   <h3>
-  <a href="{{site.url}}/repos/{{repo.url}}">
+  <a href="{{site.url}}/courses/{{repo.url}}">
   {{repo.name}}
   </a>
-  </h3>  
+  </h3>
 </li>
 {%endif%}
 
