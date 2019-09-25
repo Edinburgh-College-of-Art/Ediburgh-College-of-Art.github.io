@@ -43,74 +43,74 @@ require_once('PATH/TO/FILENAME.php')
     <article role="tabpanel" class="tab-pane active" id="shell-windows">
       <ol>
         <li>
-          <strong> <a href="https://www.apachefriends.org/index.html" rel="nofollow">Open the XAMPP website.</a></strong>
+           <a href="https://www.apachefriends.org/index.html" rel="nofollow">Open the XAMPP website.</a>
         </li>
         <li>
-          <strong>Click <strong>XAMPP for Windows</strong>.</strong>
+          Click XAMPP for Windows.
         </li>
         <li>
-          <strong>Double-click the downloaded file.</strong>
+          Double-click the downloaded file.
         </li>
         <li>
-          <strong>Click <strong>Yes</strong> when prompted.</strong> This will open the XAMPP setup window.
+          Click Yes when prompted. This will open the XAMPP setup window.
         </li>
         <li>
-          <strong>Click <strong>Next</strong>.</strong> until install location option.
+          Click Next. until install location option.
         </li>
         <li>
-          <strong>Select an installation location.</strong> Click the folder-shaped icon to the right of the current installation destination, then click a folder on your computer.
+          Select an installation location. Click the folder-shaped icon to the right of the current installation destination, then click a folder on your computer.
           <ul>
             <li>If you have the
               <a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works">
                 UAC
               </a>
-              activated on your computer, avoid installing XAMPP in your hard drive's folder (e.g., <strong>OS (C:)</strong>).
+              activated on your computer, avoid installing XAMPP in your hard drive's folder (e.g., OS (C:)).
             </li>
             <li>
-              You can select a folder (e.g., <strong>Desktop</strong>) and then click <strong>Make New Folder</strong> to create a new folder and select it as the installation destination.
+              You can select a folder (e.g., Desktop) and then click Make New Folder to create a new folder and select it as the installation destination.
             </li>
           </ul>
         </li>
         <li>
-          <strong>Click <strong>OK</strong>.</strong>
+          Click OK.
         </li>
         <li>
-          <strong>Click <strong>Next</strong>.</strong>
+          Click Next.
         </li>
         <li>
-          <strong>Uncheck the "Learn more about Bitnami" box, then click <strong>Next</strong>.</strong>
+          Uncheck the "Learn more about Bitnami" box, then click Next.
         </li>
         <li>
-          <strong>Begin installing XAMPP.</strong> Click <strong>Next</strong>
+          Begin installing XAMPP. Click Next
         </li>
         <li>
-          <strong>Click <strong>Finish</strong> when prompted.</strong>
+          Click Finish when prompted.
         </li>
         <li>
-          <strong>Select a language.</strong>
+          Select a language.
         </li>
         <li>
-          <strong>Click <strong>Save</strong>.</strong> Doing so opens the main Control Panel page.
+          Click Save. Doing so opens the main Control Panel page.
         </li>
         <li>
-          <strong>Start XAMPP from its installation point.</strong> If you need to open the XAMPP Control Panel in the future, you can do so by opening the folder in which you installed XAMPP, right-clicking the orange-and-white
-          <strong>xampp-control</strong> icon, clicking <strong>Run as administrator</strong>, and clicking <strong>Yes</strong> when prompted.
+          Start XAMPP from its installation point. If you need to open the XAMPP Control Panel in the future, you can do so by opening the folder in which you installed XAMPP, right-clicking the orange-and-white
+          xampp-control icon, clicking Run as administrator, and clicking Yes when prompted.
           <ul>
-            <li>When you do this, you'll see red <strong>X</strong> marks to the left of each server type (e.g., "Apache"). Clicking one of these will prompt you to click <strong>Yes</strong> if you want to install the server type's software on your
+            <li>When you do this, you'll see red X marks to the left of each server type (e.g., "Apache"). Clicking one of these will prompt you to click Yes if you want to install the server type's software on your
               computer.</li>
-            <li>Counterintuitively, double-clicking the <strong>xampp_start</strong> icon doesn't start XAMPP.</li>
+            <li>Counterintuitively, double-clicking the xampp_start icon doesn't start XAMPP.</li>
           </ul>
         </li>
         <li>
-          <strong>Resolve issues with Apache refusing to run.</strong> On some Windows 10 computers, Apache won't run due to a "blocked port". This can happen for a couple of reasons, but there's a relatively
+          Resolve issues with Apache refusing to run. On some Windows 10 computers, Apache won't run due to a "blocked port". This can happen for a couple of reasons, but there's a relatively
           <a href="https://pureinfotech.com/install-xampp-windows-10/">easy fix</a>
           <ul>
-            <li>Click <strong>Config</strong> to the right of the "Apache" heading.</li>
-            <li>Click <strong>Apache (httpd.conf)</strong> in the menu.</li>
+            <li>Click Config to the right of the "Apache" heading.</li>
+            <li>Click Apache (httpd.conf) in the menu.</li>
             <li>Scroll down to the "Listen 80" section (you can press <kbd>Ctrl</kbd>+<kbd>F</kbd> and type in <kbd>listen 80</kbd> to find it faster).</li>
             <li>Replace <kbd>80</kbd> with any open port (e.g., <kbd>81</kbd> or <kbd>9080</kbd>).</li>
             <li>Press <kbd>Ctrl</kbd>+<kbd>S</kbd> to save the changes, then exit the text editor.</li>
-            <li>Restart XAMPP by clicking <strong>Quit</strong> and then re-opening it in administrator mode from its folder.</li>
+            <li>Restart XAMPP by clicking Quit and then re-opening it in administrator mode from its folder.</li>
           </ul>
         </li>
       </ol>
