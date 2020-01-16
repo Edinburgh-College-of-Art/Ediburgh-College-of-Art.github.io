@@ -2,6 +2,7 @@
 layout: page
 title: SFTP Setup - cPanel
 course: Dynamic Web Design
+order: -1
 ---
 
 An easy way to edit your site directly on the cPanel server is to connect via SSH File Transfer Protocol (SFTP). This guide covers how to upload files over SFTP with PHPStorm.
