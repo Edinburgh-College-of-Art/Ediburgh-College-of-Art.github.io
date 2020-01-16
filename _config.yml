@@ -37,7 +37,7 @@ base_repo_url: "https://github.com/Edinburgh-College-of-Art/"
 
 repos: [{name: "Architectural Design 3: Unit 3", repo: architectural-design-unit-3, site: true, url: ad3},
 {name: "Connected Things", repo: Connected-Things, site: false},
-{name: "Electronic Things", repo: Electronic-Things, site: false},
+{name: "Electronic Things", repo: Electronic-Things, site: true, url: et},
 {name: "Histories and Futures of Technology", repo: Histories-and-Futures-of-Technology, site: false },
 {name: "Dynamic Web Design", repo: dynamic-web-design, site: true, url: dwd},
 {name: "Audio programming", repo: audio-programming, site: false  }
