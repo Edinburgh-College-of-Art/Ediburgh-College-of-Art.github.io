@@ -1,0 +1,9 @@
+
+{% assign article_list = site.courses | where: "course", include.course_title | | sort: 'order' %}
+
+{%- for article in (article_list | sort: 'title') -%}
+{%- if article.order > 0 -%}
+### [{{article.title}}]({{article.url}})
+{{article.excerpt}}
+{%- endif -%}
+{%- endfor -%}
