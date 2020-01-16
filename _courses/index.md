@@ -1,6 +1,6 @@
 ---
 layout: home
-title:  Welcome to the ECA GitHub
+title: Welcome to the ECA GitHub
 ---
 
 ### Course Pages
@@ -10,12 +10,13 @@ title:  Welcome to the ECA GitHub
 {% for course in courses %}
 
 {% if course.site %}
+
 <li>
-  <!-- <h4> -->
+  <h4>
   <a href="{{site.url}}/courses/{{course.url}}">
   {{course.name}}
   </a>
-  <!-- </h4> -->
+  </h4>
 </li>
 {% endif %}
 
