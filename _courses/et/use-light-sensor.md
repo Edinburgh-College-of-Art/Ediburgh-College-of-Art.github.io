@@ -7,6 +7,8 @@ order: 2
 week: 1
 ---
 
+This article covers using the onboard light sensor of the micro:bit, as well as Light Dependant Resistors.
+
 ## On board LEDs
 
 In [MakeCode](https://makecode.microbit.org) you can use the onboard LEDs to get a rough sense of light intensity.
@@ -56,7 +58,7 @@ void setup()
 
 void loop()
 {
-  int sensorValue = analogRead(sensorPin);
-  microbitMatrix.print(sensorValue);  // pi time, 4 digits of precision!!
+  int sensorValue = analogRead(lightSensorPin);
+  microbitMatrix.print(sensorValue);
 }
 ```
