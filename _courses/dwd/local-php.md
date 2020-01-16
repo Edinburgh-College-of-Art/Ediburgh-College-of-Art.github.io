@@ -2,6 +2,7 @@
 layout: page
 title: Local PHP
 course: Dynamic Web Design
+order: 3
 ---
 
 Sometimes it's nice to test out ideas on your own or just as a means of [Staging](https://en.wikipedia.org/wiki/Deployment_environment#Staging) before uploading to your web server. Here are a few ways you can run php locally to do some debugging.

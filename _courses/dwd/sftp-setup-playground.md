@@ -2,6 +2,7 @@
 layout: page
 title: SFTP Setup - ECA Playground
 course: Dynamic Web Design
+order: 5
 ---
 
 An easy way to edit your site directly on the [playgrounds server](https://www.wiki.ed.ac.uk/display/ECAIT/Experimental+web+server) is to connect via SSH File Transfer Protocol (SFTP). This guide covers how to upload files over SFTP with PHPStorm.
