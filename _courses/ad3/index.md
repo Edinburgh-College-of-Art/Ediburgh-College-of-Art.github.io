@@ -76,8 +76,8 @@ If you want to go beyond using a breadboard and need some workshop space there a
 
 Out of hours and outside the university there are some facilities available for electronic prototyping
 
-- [Eagle Lab at CodeBase](https://labs.uk.barclays/locations/edinburgh)
 - [Edinburgh HackLab](https://edinburghhacklab.com)
+- [Eagle Lab at CodeBase](https://labs.uk.barclays/locations/edinburgh)
 
 ---
 
