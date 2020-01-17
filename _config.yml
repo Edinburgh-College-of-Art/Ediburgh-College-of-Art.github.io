@@ -40,7 +40,7 @@ repos: [{name: "Architectural Design 3: Unit 3", repo: architectural-design-unit
 {name: "Electronic Things", repo: Electronic-Things, site: true, url: et},
 {name: "Histories and Futures of Technology", repo: Histories-and-Futures-of-Technology, site: false },
 {name: "Dynamic Web Design", repo: dynamic-web-design, site: true, url: dwd},
-{name: "Audio programming", repo: audio-programming, site: true, url: ap  }
+{name: "Audio Programming", repo: audio-programming, site: true, url: ap  }
 ]
 
 workshops: [{name: "Introduction to Git", repo: gitcarp, site: true, url: gitcarp},
