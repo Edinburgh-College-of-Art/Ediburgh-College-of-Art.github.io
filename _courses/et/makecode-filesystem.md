@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ! 'Arduino IDE Setup for micro:bit'
+title: ! 'Using the Filesystem from MakeCode'
 course: Electronic Things
 repo_url: electronic-things
-order: 1
+order: 3
 week: 3
 ---
 
@@ -36,21 +36,8 @@ Data can be streamed over Serial and then downloaded as a `.csv` from there.
 
 ### Example
 
-<pre id="pre1" class="makecode">
-input.onButtonPressed(Button.A, function () {
-    files.appendLine(
-    "output.txt",
-    "Hello"
-    )
-})
-input.onButtonPressed(Button.B, function () {
-    files.readToSerial("output.txt")
-})
-basic.forever(function () {
-
-})
-</pre>
-
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_157TU1LJpXsX" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<br>
 ### Useful Links
 
 - [How to Create a MakeCode Package for Micro:Bit](https://learn.sparkfun.com/tutorials/how-to-create-a-makecode-package-for-microbit/all)
