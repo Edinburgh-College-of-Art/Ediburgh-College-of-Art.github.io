@@ -23,4 +23,4 @@ class DatabaseConnection {
 }
 ```
 
-Refer to the `database_info.txt` for your <PASSWORD>.
+Refer to the `database_info.txt` for your `PASSWORD`.
