@@ -38,7 +38,7 @@ Fill in the details
 
 **Your Student Number e.g.:** s12345678
 
-![connect to db](jpg/DBDetails.jpg)
+![connect to db](jpg/DBdetails.jpg)
 
 Click test connection and, if prompted, install drivers.
 
