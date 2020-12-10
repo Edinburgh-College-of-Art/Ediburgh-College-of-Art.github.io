@@ -14,8 +14,8 @@ class DatabaseConnection {
 
 	static function connect() {
 		  return new DB\SQL(
-			'mysql:host=localhost;port=3306;dbname=UUN',
-			'UUN',
+			'mysql:host=localhost;port=3306;dbname=<UUN>',
+			'<UUN>',
 			'PASSWORD'
 		  );
 	}
@@ -24,4 +24,18 @@ class DatabaseConnection {
 ```
 
 - Refer to the `database_info.txt` for your `PASSWORD`.
-- Your UUN is your student number e.g. s12345678
+- Your <UUN> is your student number e.g. s12345678. e.g.
+
+```php
+class DatabaseConnection {
+
+	static function connect() {
+		  return new DB\SQL(
+			'mysql:host=localhost;port=3306;dbname=s12345678',
+			's12345678',
+			'PASSWORD'
+		  );
+	}
+
+}
+```
