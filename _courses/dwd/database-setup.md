@@ -7,7 +7,7 @@ order: 2
 ---
 
 1. Go to `AboveWebRoot` `>` `autoload` `>` `DatabaseConnection.php`
-2. create a file called
+2. Fill in the missing details of the file
 
 ```php
 class DatabaseConnection {
@@ -23,4 +23,5 @@ class DatabaseConnection {
 }
 ```
 
-Refer to the `database_info.txt` for your `PASSWORD`.
+- Refer to the `database_info.txt` for your `PASSWORD`.
+- Your UUN is your student number e.g. s12345678
